@@ -9,3 +9,12 @@
     - name: restarting web server
       service: name=httpd state=restarted
 
+
+
+!# /usr/bin/python
+
+
+pirnt "hello"
+
+
+
