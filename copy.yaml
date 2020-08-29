@@ -1,0 +1,11 @@
+- hosts: linux 
+  tasks:
+    - name: test copy
+      yum: name=httpd state=installed
+       
+    - name: copying html
+      copy: src=/root/new/index.html dest=/var/www/html/index.html
+
+    - name: restarting web server
+      service: name=httpd state=restarted
+
