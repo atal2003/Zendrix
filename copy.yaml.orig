@@ -10,11 +10,15 @@
       service: name=httpd state=restarted
 
 
+<<<<<<< HEAD
+
 !# /usr/bin/python
 
 
 pirnt "hello"
 
-echo "test this code from ZendrixB" 
+=======
+echo "test this code from ZendrixB"
+>>>>>>> ZendrixB
 
 
